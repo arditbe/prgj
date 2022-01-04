@@ -1,0 +1,103 @@
+html{
+    background: linear-gradient(to left, orange,yellow);
+}
+nav{
+    position: relative;
+    left: -8px;
+    top: -8px;
+    color: white;
+    width: 101.3%;
+    height: 3cm;
+    background: rgba(0, 0, 0, 0.596);
+}
+nav h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1cm;
+    font-size: 50px;
+}
+nav button{
+    width: 5cm;
+    height: 35px;
+    margin-top: 1cm;
+    position: absolute;
+    opacity: 0.0;
+    margin-left: 10px;
+    background: #313131;
+    cursor: pointer;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+nav button:focus{
+opacity: 0.9;
+outline: none;
+border-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 7cm;
+}
+
+.container input{
+    width: 7cm;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    margin-right: 2px;
+
+}
+.container button{
+ 
+    background: transparent;
+    border: 1px solid black;   width: 2cm;
+    outline: none;
+}
+
+#sbox{
+    margin-top: -8cm;
+    border-radius: 10px;
+    width: 5cm;
+    font-family: sans-serif;
+    height: 6cm;
+    color: whitesmoke;
+    display: none;
+    background: black   ;
+}
+
+.an-container{
+    width: 100%;
+    height:  auto;
+    background: black;
+    color: white;
+    border-radius: 30px;
+}
+.an-container p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+}
+.an-container h1{
+    text-align: center;
+}
+
+.red-bull{
+    opacity: 0.9;
+    width: 5cm;
+    height: 35px;
+    margin-top: -2cm;
+    background: #313131;
+    cursor: pointer;
+    color: white;
+    border: 1px solid whitesmoke;
+    float: right;
+    cursor: pointer;
+    margin-left: 27cm;
+}
+
+.red-bull:hover{
+    border-color: aqua;
+}

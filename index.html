@@ -1,0 +1,36 @@
+<html>
+    <title>loading AI</title>
+<H1 style="display:flex; justify-content:center;">Loading AI</H1>
+    <div class="rota">
+        <div class="rt"></div>
+    </div>
+</html>
+
+<style>
+    html{
+        background: #666666;
+    }
+
+    .rota{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .rota .rt{
+        width: 5cm;
+        height: 5cm;
+        border: 10px solid;
+        border-radius: 50%;
+        border-color: black #666666;
+        margin-top: 5cm;
+        animation: rt 1s linear infinite;
+    }
+    @keyframes rt{
+        100%{transform: rotate(360deg);}
+    }
+</style>
+<script>
+    setTimeout(function(){
+        window.location = "questions.html"
+    }, 300)
+</script>
