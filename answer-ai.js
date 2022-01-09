@@ -36,7 +36,7 @@ function ok(){
          return false;
      }
     if(x == "kush tka kriju" || x == "kush tka programu"){
-    document.getElementById("g").innerHTML = "Arditi"
+    document.getElementById("g").innerHTML = "Arditi edhe Diarti"
         return false;
     }
     if(x == "a e njeh getuarin" || x == "a e njeh diarin" || x == "a e njeh jetonin"){
